@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aile Danışmanı Sema BEYDİLLİ</title>
+
+<style>
+body {font-family: Arial,sans-serif; background:#fff; color:#3a9d23; margin:0; padding:0;}
+header {display:flex; align-items:center; padding:20px;}
+header img {width:100px; height:100px; border-radius:50%; margin-right:20px; object-fit:cover;}
+header h1 {margin:0; font-size:1.8em;}
+header p {margin:0; font-style:italic;}
+nav {background:#3a9d23; text-align:center; padding:10px;}
+nav a {color:#fff; text-decoration:none; margin:0 15px; font-weight:bold;}
+nav a:hover {text-decoration:underline;}
+section {padding:40px 20px;}
+h2 {text-align:center; margin-bottom:20px;}
+.hizmetler {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+.hizmet {border:2px solid #3a9d23; border-radius:10px; padding:20px; width:250px; text-align:center; transition:0.3s;}
+.hizmet:hover {transform:translateY(-5px);}
+form {max-width:500px; margin:auto; display:flex; flex-direction:column;}
+form input, form textarea {padding:10px; margin:10px 0; border:1px solid #3a9d23; border-radius:5px;}
+form button {background:#3a9d23; color:#fff; border:none; padding:12px; border-radius:5px; cursor:pointer;}
+form button:hover {background:#2f7c1b;}
+footer {background:#3a9d23; color:#fff; text-align:center; padding:20px;}
+@media(max-width:768px){header{flex-direction:column;text-align:center;}header img{margin-bottom:10px;} .hizmetler{flex-direction:column;align-items:center;} nav a{display:block;margin:10px 0;}}
+</style>
+</head>
+<body>
+
+<header>
+<img src="logo.png.jpeg" alt="Logo">
+<div>
+<h1>Aile Danışmanı Sema BEYDİLLİ</h1>
+<p><i>Birlikte Çözüm Mümkün.</i></p>
+</div>
+</header>
+
+<nav>
+<a href="#hakkimda">Hakkımda</a>
+<a href="#hizmetler">Hizmetler</a>
+<a href="#randevu">Randevu</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+
+<section id="hakkimda">
+<h2>Hakkımda</h2>
+<p style="max-width:800px; margin:auto; text-align:center;">Aile Danışmanı Sema Beydilli olarak bireylerin ve ailelerin yaşadığı psikolojik zorluklarda profesyonel destek sunuyorum. Çalışmalarımda <b>Bilişsel Davranışçı Terapi (BDT)</b> temelli danışma yaklaşımını kullanıyorum.</p>
+</section>
+
+<section id="hizmetler">
+<h2>Hizmetler</h2>
+<div class="hizmetler">
+<div class="hizmet">Aile Danışmanlığı</div>
+<div class="hizmet">Bireysel Danışmanlık</div>
+<div class="hizmet">Oyun Danışmanlığı</div>
+<div class="hizmet">Eğitim Danışmanlığı</div>
+<div class="hizmet">Kariyer Danışmanlığı</div>
+</div>
+</section>
+
+<section id="randevu">
+<h2>Randevu Al</h2>
+<form action="https://formspree.io/f/your-form-id" method="POST">
+<input type="text" name="isim" placeholder="Adınız" required>
+<input type="email" name="email" placeholder="Email" required>
+<textarea name="mesaj" rows="5" placeholder="Mesajınız"></textarea>
+<button type="submit">Gönder</button>
+</form>
+</section>
+
+<section id="iletisim">
+<h2>İletişim</h2>
+<p style="text-align:center;">Email: <a href="mailto:Psikolojikdanisman.sema@gmail.com">Psikolojikdanisman.sema@gmail.com</a></p>
+<p style="text-align:center;">Instagram: <a href="https://www.instagram.com/psk.dan.semabeydilli" target="_blank">@psk.dan.semabeydilli</a></p>
+</section>
+
+<footer>
+<p>© 2026 Aile Danışmanı Sema BEYDİLLİ</p>
+</footer>
+
+</body>
+</html>
